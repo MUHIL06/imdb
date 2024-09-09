@@ -1,0 +1,65 @@
+.film-form {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: transparent;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.film-form h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #fff019;
+}
+
+.film-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.film-form label {
+  margin-bottom: 15px;
+  font-weight: bold;
+  color: #00ff80;
+}
+
+.film-form input[type="text"],
+.film-form input[type="number"],
+.film-form input[type="date"],
+.film-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid white;
+  border-radius: 4px;
+  font-size: 16px;
+  box-sizing: border-box;
+  background-color: transparent;
+  color: antiquewhite;
+}
+
+.film-form textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+.film-form input[type="checkbox"] {
+  margin-top: 5px;
+}
+
+.film-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.film-form button:hover {
+  background-color: #00ff9d;
+}

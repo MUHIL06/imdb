@@ -1,0 +1,42 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: linear-gradient(135deg, #b700ff, #fc0202);
+  color: white;
+  width: 1400px;
+  transition: background-color 0.3s ease;
+}
+
+.header .logo {
+  size: 10px 15px;
+  border-radius: 5px;
+}
+
+.header img {
+  width: 50px;
+  height: 30px;
+  border-radius: 4px;
+}
+
+.header .nav-buttons {
+  display: flex;
+  gap: 15px;
+  font-weight: bold;
+}
+
+.header .nav-button, .signin-button, .add-button {
+  text-decoration: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.header .nav-button:hover, .signin-button:hover, .add-button:hover {
+  background-color: #81f9ad;
+}
+.header:hover {
+  background: linear-gradient(135deg, #01ffaa, #00aaff);
+}

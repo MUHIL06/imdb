@@ -1,0 +1,7 @@
+.about-page {
+    color: white;
+    /* background-color: black; */
+    text-align: center;
+    
+  backdrop-filter: blur(3px);
+  }  
